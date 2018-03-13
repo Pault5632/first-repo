@@ -5,11 +5,14 @@ public class Index{
   public static void main(String[] args){
     Scanner input = new Scanner(System.in);
 
-    System.out.println("Select an option (1-3):");
+    System.out.println("Select an option (1-5):");
     System.out.println();
     System.out.println("1. Break");
     System.out.println("2. Switch");
     System.out.println("3. Method");
+    System.out.println("4. Shadowing");
+       System.out.println("5. Overloading");
+    System.out.println("6. Exit");
 
     System.out.println();
 
@@ -30,12 +33,22 @@ public class Index{
       case 3:
         System.out.println("Methods...labs");
         System.out.println();
-        Methods.main(null);
+        ReturnMethods.main(null);
         break;
-         case 4:
+        case 4:
+         System.out.println("Shadow...labs");
+		        System.out.println();
+		        Shadow.main(null);
+        break;
+          case 5:
+		         System.out.println("Overloading lab exercise");
+				        System.out.println();
+				        Overloading.main(null);
+        break;
+         case 6:
 		        System.out.println("Existing....");
 		        break;
-		        default:
+		  default:
 		         System.out.println("Invalid choice");
 
 
