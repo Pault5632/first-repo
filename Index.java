@@ -13,7 +13,10 @@ public class Index{
     System.out.println("4. Shadowing");
     System.out.println("5. Overloading");
     System.out.println("6. First Array");
-    System.out.println("7. Exit");
+    System.out.println("7. Second Array");
+    System.out.println("8. Try Catch");
+    System.out.println("9. Enhanced For");
+    System.out.println("10. Exit");
 
     System.out.println();
 
@@ -40,24 +43,39 @@ public class Index{
          System.out.println("Shadow...labs");
 		        System.out.println();
 		        Shadow.main(null);
-        break;
-          case 5:
+                 break;
+        case 5:
 		         System.out.println("Overloading lab exercise");
 				        System.out.println();
 				        Arithmetic.main(null);
-        break;
+                        break;
         case 6:
 				        System.out.println("Array");
-
-				          System.out.println();
+				         System.out.println();
 				         FirstArray.main(null);
+				         break;
+        case 7:
+		 				  System.out.println("Second array lab excercises");
+		 		          System.out.println();
+				          SecondArray.main(null);
+				          break;
+        case 8:
+					 	 System.out.println("Try Catch lab excercises");
+					 	 System.out.println();
+					     TryCatch.main(null);
+					     break;
+		case 9:
+						  System.out.println("Enhanced For lab excercises");
+						  System.out.println();
+						  EnhancedFor.main(null);
+						  break;
 
 
-         case 7:
-		        System.out.println("Existing....");
-		        break;
-		  default:
-		         System.out.println("Invalid choice");
+         case 10:
+		         		  System.out.println("Existing....");
+		        		  break;
+		    			  default:
+		        	      System.out.println("Invalid choice");
 
 
     }
