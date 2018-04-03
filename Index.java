@@ -29,29 +29,29 @@ public class Index{
 
     switch(choice){
       case 1:
-       				   System.out.println("Break lab");
-       				   Break_Ex2.main(null); //static method call, no instance required.
-                       break;
-       case 2:
-       					System.out.println("Switch lab");
-      					System.out.println();
-     					FirstSwitch.main(null);
-      				    break;
+       				      System.out.println("Break lab");
+       				      Break_Ex2.main(null); //static method call, no instance required.
+                          break;
+        case 2:
+       					  System.out.println("Switch lab");
+      					  System.out.println();
+     					  FirstSwitch.main(null);
+      				      break;
         case 3:
-       				    System.out.println("Methods...labs");
-      				    System.out.println();
-       				    ReturnMethods.main(null);
-       				    break;
+       				      System.out.println("Methods...labs");
+      				      System.out.println();
+       				      ReturnMethods.main(null);
+       				      break;
         case 4:
-                         System.out.println("Shadow...labs");
-		       			 System.out.println();
-		       			 Shadow.main(null);
-               		     break;
+                          System.out.println("Shadow...labs");
+		       			  System.out.println();
+		       			  Shadow.main(null);
+               		      break;
         case 5:
-		                 System.out.println("Overloading lab exercise");
-				         System.out.println();
-				         Arithmetic.main(null);
-                         break;
+		                  System.out.println("Overloading lab exercise");
+				          System.out.println();
+				          Arithmetic.main(null);
+                          break;
         case 6:
 				          System.out.println("Array");
 				          System.out.println();
@@ -84,11 +84,11 @@ public class Index{
 						  System.out.println();
 						  Convert.main(null);
 						  break;
-		  case 12:
-					     System.out.println("Search  lab excercises");
-					     System.out.println();
-					     Search.main(null);
-						 break;
+		 case 12:
+					      System.out.println("Search  lab excercises");
+					      System.out.println();
+					      Search.main(null);
+						  break;
 
 
 
