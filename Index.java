@@ -5,7 +5,7 @@ public class Index{
   public static void main(String[] args){
     Scanner input = new Scanner(System.in);
 
-    System.out.println("Select an option (1-5):");
+    System.out.println("Select an option (1-13):");
     System.out.println();
     System.out.println("1. Break");
     System.out.println("2. Switch");
