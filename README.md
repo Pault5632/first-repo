@@ -1,1 +1,1 @@
-# first-repo
+Software Development Project Computing and Digital Media Year 1- Paul Tiernan. You can clone a repository with git clone [url]. You can download it to your PC and unzip the file. To run the project you will need to open the Index.java file in Textpad. To compile this code press Control 1 and to run the programme it is Control 2.
